@@ -3,6 +3,9 @@ let pariDispari = prompt("Inserire pari o dispari").toLowerCase();
 document.getElementById('pariDispari').innerHTML = `Hai scelto: ${pariDispari}`
 //2- Inserisce numero da 1 a 5
 let number = parseInt(prompt("Inserire numero da 1 a 5"));
+while (number < 1 || number > 5){
+    number = parseInt(prompt("Inserire nuovamente il numero da 1 a 5"));
+}
 document.getElementById('num').innerHTML = `Numero scelto: ${number}`
 //3- Generiamo un numero radom (sempre da 1 a 5) per il computer
 //3.1 usiamo una funzione 
