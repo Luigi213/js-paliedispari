@@ -1,17 +1,17 @@
 //1- Inserire una parola 
-let word = prompt('Inserire una parola')
+let word = prompt('Inserire una parola');
 //1.1- creare una funzione per capire se la parola inserita e palindroma
-function pali(wor) 
+function pali() 
 {
-    let split = wor.split("").join("");
-    let reverse_split = wor.split("").reverse().join("");
+    let split = word.split("").join("");
+    let reverse_split= word.split("").reverse().join("");
     if(split == reverse_split){
-        return `${wor} è palindromo`
+        return `${word} è palindromo`
     }
     else{
-        return `${wor} non è palindromo`
+        return `${word} non è palindromo`
     }
 }
 
-let result = pali(word);
+let result = pali();
 document.getElementById("pali").innerHTML = result;

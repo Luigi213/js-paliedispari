@@ -9,7 +9,7 @@ while (number < 1 || number > 5){
 document.getElementById('num').innerHTML = `Numero scelto: ${number}`
 //3- Generiamo un numero radom (sempre da 1 a 5) per il computer
 //3.1 usiamo una funzione 
-function npcNumber(num)
+function npcNumber()
 {
     let generateNum = Math.floor(Math.random() * 5 + 1);
     return generateNum;
@@ -32,10 +32,7 @@ function dispariPari(som)
 let disPa = dispariPari(somma);
 document.getElementById('somma').innerHTML = `Somma dei due numeri: ${somma}, quindi ${disPa}`
 //6- Dichiariamo chi ha vinto
-if(pariDispari == disPa && somma % 2 == 0){
-    document.getElementById('result').innerHTML = 'Hai vinto'
-}
-else if(pariDispari == disPa && somma % 2 == 1){
+if(pariDispari == disPa){
     document.getElementById('result').innerHTML = 'Hai vinto'
 }
 else{
