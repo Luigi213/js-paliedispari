@@ -5,6 +5,7 @@ L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. Generiamo un n
 //2- Inserisce numero da 1 a 5
 //3- Generiamo un numero radom (sempre da 1 a 5) per il computer
 //3.1 usiamo una funzione 
-//4- Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari
-//4.1 usiamo una funzione
-//5- Dichiariamo chi ha vinto
+//4- Sommiamo i due numeri 
+//5- Stabiliamo se la somma dei due numeri è pari o dispari
+//5.1 usiamo una funzione
+//6- Dichiariamo chi ha vinto
