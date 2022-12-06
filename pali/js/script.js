@@ -3,9 +3,8 @@ let word = prompt('Inserire una parola');
 //1.1- creare una funzione per capire se la parola inserita e palindroma
 function pali() 
 {
-    let split = word.split("").join("");
-    let reverse_split= word.split("").reverse().join("");
-    if(split == reverse_split){
+    let newWord = word.split("").reverse().join("");
+    if(newWord == word){
         return `${word} è palindromo`
     }
     else{
